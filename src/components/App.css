@@ -1,0 +1,61 @@
+.breadcrumb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 0px;
+}
+
+.breadcrumb .breadcrumb-item {
+  cursor: pointer;
+}
+
+.parent {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  text-align: center;
+}
+
+.mapContainer {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.map {
+  height: 70%;
+  margin: 0px auto;
+}
+
+.result {
+  position: absolute;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.result table {
+  text-align: center;
+}
+
+.result table th {
+  min-width: 51px;
+}
+
+.hide {
+  z-index: -1;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+/*# sourceMappingURL=App.css.map */
