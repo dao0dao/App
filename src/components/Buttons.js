@@ -18,7 +18,7 @@ const Buttons = props => {
                 Współrzędne
             </BreadcrumbItem>
         </Breadcrumb>
-    )
-}
+    );
+};
 
-export default Buttons
+export default Buttons;

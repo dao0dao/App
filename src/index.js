@@ -25,8 +25,8 @@ import "assets/demo/demo.css";
 import "assets/demo/nucleo-icons-page-styles.css";
 
 // Application
-import App from 'components/App'
+import App from 'components/App';
 // own styles
-import 'components/index.css'
+import 'components/index.css';
 
-ReactDOM.render(<App />, document.getElementById("root"))
+ReactDOM.render(<App />, document.getElementById("root"));

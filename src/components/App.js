@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
 // Components
-import Buttons from './Buttons'
-import Map from './Map'
-import Item from './Item'
-import Table from './Table'
+import Buttons from './Buttons';
+import Map from './Map';
+import Item from './Item';
+import Table from './Table';
 // Mapbox Gl
 import mapboxgl from 'mapbox-gl';
 
@@ -21,7 +21,7 @@ class App extends Component {
   lng = '';
 
   componentDidMount() {
-    this.loadMap()
+    this.loadMap();
   };
 
   loadMap = () => {
@@ -49,7 +49,7 @@ class App extends Component {
       options: oneMaker
     });
     this.updateState(newAllMarkers);
-  }
+  };
 
   updateState = allMarkers => {
     this.setState({
@@ -82,16 +82,16 @@ class App extends Component {
     if (!this.state.activeMap) {
       this.setState({
         activeMap: true
-      })
-    }
-  }
+      });
+    };
+  };
   handleClickResulButton = () => {
     if (this.state.activeMap) {
       this.setState({
         activeMap: false
-      })
-    }
-  }
+      });
+    };
+  };
 
   render() {
     let { allMarkers, activeMap } = this.state;
@@ -128,7 +128,7 @@ class App extends Component {
         </div>
       </>
     )
-  }
-}
+  };
+};
 
 export default App;

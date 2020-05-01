@@ -19,4 +19,4 @@ const Map = props => {
     );
 };
 
-export default Map
+export default Map;
