@@ -1,5 +1,14 @@
-# App
-Only 3 steps to see app:
-1. Download it and extract.
-2. Open in terminal App's location and write: "npm install", after that "npm start"
-3. Finish :)
+# Simply Map app
+How to use it:
+1. Double click create draggable Marker.
+2. Markes coordinates are in App's bookmark. They can be deleted.
+
+# Technologie uses:
+1. React
+2. Mapbox GL JS
+3. Creative Tim Now UI Kit
+
+# How to instal:
+1. Download repository
+2. In terminal write "npm install", wait until install is finished.
+3. Write in terminal "npm start".
